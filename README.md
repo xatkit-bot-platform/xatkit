@@ -12,7 +12,7 @@ Each release contains two artifacts:
 
 # Quick Start
 
-1- Download the [latest release](https://github.com/xatkit-bot-platform/xatkit-releases/releases/tag/2.0.0-SNAPSHOT) and extract *xatkit_X.Y.Z*.
+1- Download the [latest release](https://github.com/xatkit-bot-platform/xatkit-releases/releases/tag/2.0.0) and extract *xatkit_2.0.0.zip*.
 
 2- Setup the environment variable
 
