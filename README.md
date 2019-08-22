@@ -1,7 +1,7 @@
 Xatkit Releases
 ======
 
-This repository contains the releases of the Xatkit framework. You can download the latest release [here](https://github.com/xatkit-bot-platform/xatkit-releases/releases/tag/2.0.0-SNAPSHOT), or pick the one you need from the [release list](https://github.com/xatkit-bot-platform/xatkit-releases/releases).
+This repository contains the releases of the Xatkit framework. You can download the latest release [here](https://github.com/xatkit-bot-platform/xatkit-releases/releases/tag/2.0.0), or pick the one you need from the [release list](https://github.com/xatkit-bot-platform/xatkit-releases/releases).
 
  # What's in the box?
 
