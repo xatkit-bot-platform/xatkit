@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.xatkit</groupId>
+    <artifactId>xatkit</artifactId>
+    <version>2.0.1-SNAPSHOT</version>
+
+    <packaging>pom</packaging>
+
+    <name>Xatkit</name>
+    <description>A generic bot platform</description>
+
+    <organization>
+        <name>SOM Research Lab</name>
+        <url>https://som-research.uoc.edu/</url>
+    </organization>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <!-- Dependency versions -->
+        <emf.version>2.15.0</emf.version>
+        <xtext.version>2.15.0</xtext.version>
+        <emf.codegen.ecore.xtext.version>1.4.0</emf.codegen.ecore.xtext.version>
+        <atlanmod-commons.version>1.0.1</atlanmod-commons.version>
+        <log4j.version>2.9.1</log4j.version>
+        <junit.version>4.12</junit.version>
+        <equinox.common.version>3.10.0</equinox.common.version>
+        <xcore.version>1.3.1</xcore.version>
+        <xcore-lib.version>1.1.100</xcore-lib.version>
+        <assertj.version>3.10.0</assertj.version>
+        <!-- Plugin versions -->
+        <maven-bundle-plugin.version>3.3.0</maven-bundle-plugin.version>
+        <maven-javadoc-plugin.version>2.10.4</maven-javadoc-plugin.version>
+        <maven-surefire-plugin.version>2.20.1</maven-surefire-plugin.version>
+        <maven-assembly-plugin.version>3.1.0</maven-assembly-plugin.version>
+        <maven-jar-plugin.version>3.0.2</maven-jar-plugin.version>
+        <jacoco-maven-plugin.version>0.7.9</jacoco-maven-plugin.version>
+        <versions-maven-plugin.version>2.5</versions-maven-plugin.version>
+        <maven-clean-plugin.version>3.0.0</maven-clean-plugin.version>
+        <build-helper-maven-plugin.version>1.12</build-helper-maven-plugin.version>
+        <maven-compiler-plugin.version>3.6.0</maven-compiler-plugin.version>
+        <maven-help-plugin.version>3.2.0</maven-help-plugin.version>
+        <!-- Used in the Javadoc profile -->
+        <commons-configuration.version>2.2</commons-configuration.version>
+    </properties>
+
+
+    <!-- <modules>
+        <module>core</module>
+        <module>metamodels</module>
+        <module>core_resources</module>
+    </modules> -->
+
+    <developers>
+        <developer>
+            <name>Jordi CABOT</name>
+            <id>jordi.cabot</id>
+            <email>jordi.cabot@icrea.cat</email>
+            <roles>
+                <role>admin</role>
+                <role>developer</role>
+            </roles>
+            <timezone>+2</timezone>
+        </developer>
+        <developer>
+            <name>Gwendal DANIEL</name>
+            <id>gwendal.daniel</id>
+            <email>gwendal.daniel@gmail.com</email>
+            <roles>
+                <role>admin</role>
+                <role>developer</role>
+            </roles>
+            <timezone>+2</timezone>
+        </developer>
+    </developers>
+
+    <dependencyManagement>
+        <dependencies>
+
+            <!-- EMF -->
+
+            <dependency>
+                <groupId>org.eclipse.emf</groupId>
+                <artifactId>org.eclipse.emf.common</artifactId>
+                <version>${emf.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.eclipse.emf</groupId>
+                <artifactId>org.eclipse.emf.ecore</artifactId>
+                <version>${emf.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.eclipse.emf</groupId>
+                <artifactId>org.eclipse.emf.ecore.xmi</artifactId>
+                <version>${emf.version}</version>
+            </dependency>
+
+            <!-- xcore -->
+
+            <dependency>
+                <groupId>org.eclipse.emf</groupId>
+                <artifactId>org.eclipse.emf.ecore.xcore</artifactId>
+                <version>${xcore.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.eclipse.emf</groupId>
+                <artifactId>org.eclipse.emf.ecore.xcore.lib</artifactId>
+                <version>${xcore-lib.version}</version>
+            </dependency>
+
+            <!-- Utils -->
+
+            <dependency>
+              <groupId>fr.inria.atlanmod.commons</groupId>
+              <artifactId>commons-core</artifactId>
+              <version>${atlanmod-commons.version}</version>
+            </dependency>
+
+            <dependency>
+              <groupId>org.apache.logging.log4j</groupId>
+              <artifactId>log4j-slf4j-impl</artifactId>
+              <version>${log4j.version}</version>
+            </dependency>
+
+            <dependency>
+              <groupId>org.apache.logging.log4j</groupId>
+              <artifactId>log4j-core</artifactId>
+              <version>${log4j.version}</version>
+            </dependency>
+
+            <!-- Tests -->
+
+            <dependency>
+              <groupId>junit</groupId>
+              <artifactId>junit</artifactId>
+              <version>${junit.version}</version>
+              <scope>test</scope>
+            </dependency>
+
+            <dependency>
+              <groupId>org.assertj</groupId>
+              <artifactId>assertj-core</artifactId>
+              <version>${assertj.version}</version>
+              <scope>test</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.logging.log4j</groupId>
+                <artifactId>log4j-core</artifactId>
+                <type>test-jar</type>
+                <version>${log4j.version}</version>
+            </dependency>
+
+        </dependencies>
+    </dependencyManagement>
+
+    <build>
+        <pluginManagement>
+            <plugins>
+
+                <plugin>
+                    <groupId>org.apache.felix</groupId>
+                    <artifactId>maven-bundle-plugin</artifactId>
+                    <version>${maven-bundle-plugin.version}</version>
+                    <extensions>true</extensions>
+                    <configuration>
+                        <instructions>
+                            <Bundle-Vendor>${project.organization.name}</Bundle-Vendor>
+                            <Bundle-Version>
+                                2.0.1.${maven.build.timestamp}
+                            </Bundle-Version>
+                            <Bundle-ClassPath>.,{maven-dependencies}</Bundle-ClassPath>
+                            <Import-Package />
+                            <Embed-Dependency><!-- Inherited -->
+                                *;
+                                scope=compile|runtime;
+                                type=!pom;
+                                groupId=!${project.groupId}|fr.inria.atlanmod.commons|org.eclipse.emf
+                            </Embed-Dependency>
+                            <Embed-Transitive>true</Embed-Transitive>
+                        </instructions>
+                    </configuration>
+                </plugin>
+
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-javadoc-plugin</artifactId>
+                    <version>${maven-javadoc-plugin.version}</version>
+                    <configuration>
+                        <additionalparam>-Xdoclint:none</additionalparam>
+                        <failOnError>false</failOnError>
+                        <quiet>true</quiet>
+                        <notimestamp>true</notimestamp>
+                        <nosince>true</nosince>
+                        <author>false</author>
+                        <groups>
+                            <group>
+                                <title>Core</title>
+                                <packages>com.xatkit.core:com.xatkit.core.*</packages>
+                            </group>
+                            <group>
+                                <title>Models</title>
+                                <packages>com.xatkit.intent*:com.xatkit.platform*:com.xatkit.execution*</packages>
+                            </group>
+                        </groups>
+                        <tags>
+                            <tag>
+                                <name>generated</name>
+                                <placement>a</placement>
+                                <head>Generated</head>
+                            </tag>
+                            <!-- Ignore @model and @ordered -->
+                            <tag>
+                                <name>model</name>
+                                <placement>X</placement>
+                            </tag>
+                            <tag>
+                                <name>ordered</name>
+                                <placement>X</placement>
+                            </tag>
+                        </tags>
+                    </configuration>
+                </plugin>
+
+               <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-surefire-plugin</artifactId>
+                    <version>${maven-surefire-plugin.version}</version>
+                    <configuration>
+                        <!--<argLine>-Dfile.encoding=${project.build.sourceEncoding}</argLine>-->
+                        <failIfNoTests>false</failIfNoTests>
+                    </configuration>
+                </plugin>
+
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-assembly-plugin</artifactId>
+                    <version>${maven-assembly-plugin.version}</version>
+                    <executions>
+                        <execution>
+                            <phase>package</phase>
+                            <goals>
+                                <goal>single</goal>
+                            </goals>
+                        </execution>
+                    </executions>
+                    <configuration>
+                        <descriptorRefs>
+                            <descriptorRef>jar-with-dependencies</descriptorRef>
+                        </descriptorRefs>
+                    </configuration>
+                </plugin>
+
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-jar-plugin</artifactId>
+                    <version>${maven-jar-plugin.version}</version>
+                    <executions>
+                        <execution>
+                            <goals>
+                                <goal>test-jar</goal>
+                            </goals>
+                        </execution>
+                    </executions>
+                </plugin>
+
+                <plugin>
+                    <groupId>org.jacoco</groupId>
+                    <artifactId>jacoco-maven-plugin</artifactId>
+                    <version>${jacoco-maven-plugin.version}</version>
+                    <configuration>
+                        <excludes>
+                            <exclude>**/tests/*</exclude>
+                        </excludes>
+                    </configuration>
+                </plugin>
+
+                <plugin>
+                    <groupId>org.codehaus.mojo</groupId>
+                    <artifactId>versions-maven-plugin</artifactId>
+                    <version>${versions-maven-plugin.version}</version>
+                </plugin>
+
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-clean-plugin</artifactId>
+                    <version>${maven-clean-plugin.version}</version>
+                </plugin>
+
+                <plugin>
+                    <groupId>org.codehaus.mojo</groupId>
+                    <artifactId>build-helper-maven-plugin</artifactId>
+                    <version>${build-helper-maven-plugin.version}</version>
+                    <executions>
+                        <execution>
+                            <id>add-source</id>
+                            <phase>generate-sources</phase>
+                        </execution>
+                    </executions>
+                </plugin>
+
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>${maven-compiler-plugin.version}</version>
+                </plugin>
+
+                <!-- display active profile in compile phase -->
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-help-plugin</artifactId>
+                    <version>${maven-help-plugin.version}</version>
+                    <executions>
+                        <execution>
+                            <id>show-profiles</id>
+                            <phase>compile</phase>
+                            <goals>
+                                <goal>active-profiles</goal>
+                            </goals>
+                        </execution>
+                    </executions>
+                </plugin>
+
+            </plugins>
+        </pluginManagement>
+
+        <plugins>
+
+            <!-- display active profile in compile phase -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-help-plugin</artifactId>
+            </plugin>
+
+        </plugins>
+    </build>
+
+    <profiles>
+        <!-- A profile to manage Javadoc dependencies (EMF,...) -->
+        <profile>
+            <id>deploy-javadoc</id>
+            <properties>
+                <skipTests>true</skipTests>
+            </properties>
+
+            <dependencies>
+
+                <dependency>
+                    <groupId>fr.inria.atlanmod.commons</groupId>
+                    <artifactId>commons-core</artifactId>
+                    <version>${atlanmod-commons.version}</version>
+                </dependency>
+
+                <dependency>
+                    <groupId>org.eclipse.emf</groupId>
+                    <artifactId>org.eclipse.emf.common</artifactId>
+                    <version>${emf.version}</version>
+                </dependency>
+
+                <dependency>
+                    <groupId>org.eclipse.emf</groupId>
+                    <artifactId>org.eclipse.emf.ecore</artifactId>
+                    <version>${emf.version}</version>
+                </dependency>
+
+                <dependency>
+                    <groupId>org.apache.commons</groupId>
+                    <artifactId>commons-configuration2</artifactId>
+                    <version>${commons-configuration.version}</version>
+                </dependency>
+
+            </dependencies>
+
+            <build>
+                <pluginManagement>
+                    <plugins>
+
+                        <plugin>
+                            <groupId>org.apache.maven.plugins</groupId>
+                            <artifactId>maven-javadoc-plugin</artifactId>
+                            <version>${maven-javadoc-plugin.version}</version>
+                            <configuration>
+                                <includeDependencySources>true</includeDependencySources>
+                                <dependencySourceIncludes>
+                                    <dependencySourceInclude>fr.inria.atlanmod.commons:*</dependencySourceInclude>
+                                    <dependencySourceInclude>org.eclipse.emf:*</dependencySourceInclude>
+                                    <dependencySourceInclude>org.apache.commons.configuration2:*</dependencySourceInclude>
+                                </dependencySourceIncludes>
+                                <excludePackageNames>
+                                    fr.inria.atlanmod.commons*;
+                                    org.eclipse.emf*;
+                                    javax.annotation*;
+                                    org.apache.commons.configuration2*;
+                                </excludePackageNames>
+                                <detectLinks>true</detectLinks>
+                                <links>
+                                    <link>https://atlanmod.github.io/Commons/releases/latest/doc/</link>
+                                    <link>http://download.eclipse.org/modeling/emf/emf/javadoc/2.11/</link>
+                                    <link>https://commons.apache.org/proper/commons-configuration/apidocs/</link>
+                                </links>
+                            </configuration>
+                        </plugin>
+
+                    </plugins>
+                </pluginManagement>
+            </build>
+        </profile>
+    </profiles>
+
+</project>
