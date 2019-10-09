@@ -72,4 +72,4 @@ You want to contribute to Xatkit? We would love to hear from you and provide all
 
 You can use the XDK to clone the Xatkit repositories and add your awesome contributions. Once you are ready, you can open a pull-request on the repository you updated and we will be happy to review your code and help you!
 
-You have created a brand new platform for Xatkit? You can [contact us]() and we will take a look at it! If you want to increase the visibility of your contribution we can create a dedicated repository for it in the Xatkit organization on Github.
+You have created a brand new platform for Xatkit? You can [contact us](mailto:admin@xatkit.com) and we will take a look at it! If you want to increase the visibility of your contribution we can create a dedicated repository for it in the Xatkit organization on Github.
