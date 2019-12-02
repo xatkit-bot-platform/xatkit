@@ -3,7 +3,7 @@ Xatkit Releases
 
 [![Wiki Badge](https://img.shields.io/badge/doc-wiki-blue)](https://github.com/xatkit-bot-platform/xatkit-releases/wiki)
 
-This repository contains the releases of the Xatkit framework. You can download the latest release [here](https://github.com/xatkit-bot-platform/xatkit-releases/releases/tag/3.0.0), or pick the one you need from the [release list](https://github.com/xatkit-bot-platform/xatkit-releases/releases).
+This repository contains the releases of the Xatkit framework. You can download the latest release [here](https://github.com/xatkit-bot-platform/xatkit-releases/releases/tag/4.0.0), or pick the one you need from the [release list](https://github.com/xatkit-bot-platform/xatkit-releases/releases).
 
  # What's in the box?
 
@@ -14,7 +14,7 @@ Each release contains two artifacts:
 
 # Quick Start
 
-1- Download the [latest release](https://github.com/xatkit-bot-platform/xatkit-releases/releases/tag/3.0.0) and extract *xatkit_3.0.0.zip*.
+1- Download the [latest release](https://github.com/xatkit-bot-platform/xatkit-releases/releases/tag/4.0.0) and extract *xatkit_4.0.0.zip*.
 
 2- Setup the environment variable
 
