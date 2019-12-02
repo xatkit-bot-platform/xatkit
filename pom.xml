@@ -5,7 +5,7 @@
 
     <groupId>com.xatkit</groupId>
     <artifactId>xatkit</artifactId>
-    <version>4.0.0</version>
+    <version>4.0.1-SNAPSHOT</version>
 
     <packaging>pom</packaging>
 
@@ -181,7 +181,7 @@
                         <instructions>
                             <Bundle-Vendor>${project.organization.name}</Bundle-Vendor>
                             <Bundle-Version>
-                                ${project.version}<!--.${maven.build.timestamp}-->
+                                ${project.version}.${maven.build.timestamp}
                             </Bundle-Version>-->
                             <Bundle-ClassPath>.,{maven-dependencies}</Bundle-ClassPath>
                             <Import-Package />
