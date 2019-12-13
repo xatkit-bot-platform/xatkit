@@ -16,3 +16,6 @@
 [submodule "platforms/xatkit-alexa-platform"]
 	path = platforms/xatkit-alexa-platform
 	url = https://github.com/xatkit-bot-platform/xatkit-alexa-platform.git
+[submodule "platforms/xatkit-chat-platform"]
+	path = platforms/xatkit-chat-platform
+	url = https://github.com/xatkit-bot-platform/xatkit-chat-platform.git
