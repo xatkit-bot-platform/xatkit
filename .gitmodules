@@ -10,3 +10,6 @@
 [submodule "xatkit-examples"]
 	path = xatkit-examples
 	url = https://github.com/xatkit-bot-platform/xatkit-examples.git
+[submodule "libraries/xatkit-core-library"]
+	path = libraries/xatkit-core-library
+	url = https://github.com/xatkit-bot-platform/xatkit-core-library.git
