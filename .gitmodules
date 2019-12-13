@@ -4,3 +4,6 @@
 [submodule "xatkit-metamodels"]
 	path = xatkit-metamodels
 	url = https://github.com/xatkit-bot-platform/xatkit-metamodels.git
+[submodule "xatkit-eclipse"]
+	path = xatkit-eclipse
+	url = https://github.com/xatkit-bot-platform/xatkit-eclipse.git
