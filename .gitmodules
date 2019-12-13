@@ -43,3 +43,6 @@
 [submodule "platforms/xatkit-twitter-platform"]
 	path = platforms/xatkit-twitter-platform
 	url = https://github.com/xatkit-bot-platform/xatkit-twitter-platform.git
+[submodule "platforms/xatkit-zapier-platform"]
+	path = platforms/xatkit-zapier-platform
+	url = https://github.com/xatkit-bot-platform/xatkit-zapier-platform.git
