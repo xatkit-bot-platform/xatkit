@@ -19,3 +19,6 @@
 [submodule "platforms/xatkit-chat-platform"]
 	path = platforms/xatkit-chat-platform
 	url = https://github.com/xatkit-bot-platform/xatkit-chat-platform.git
+[submodule "platforms/xatkit-core-platform"]
+	path = platforms/xatkit-core-platform
+	url = https://github.com/xatkit-bot-platform/xatkit-core-platform.git
