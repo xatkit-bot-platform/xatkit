@@ -1,3 +1,6 @@
 [submodule "xatkit-runtime"]
 	path = xatkit-runtime
 	url = https://github.com/xatkit-bot-platform/xatkit-runtime.git
+[submodule "xatkit-metamodels"]
+	path = xatkit-metamodels
+	url = https://github.com/xatkit-bot-platform/xatkit-metamodels.git
