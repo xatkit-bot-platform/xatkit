@@ -37,3 +37,6 @@
 [submodule "platforms/xatkit-react-platform"]
 	path = platforms/xatkit-react-platform
 	url = https://github.com/xatkit-bot-platform/xatkit-react-platform.git
+[submodule "platforms/xatkit-slack-platform"]
+	path = platforms/xatkit-slack-platform
+	url = https://github.com/xatkit-bot-platform/xatkit-slack-platform.git
