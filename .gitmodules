@@ -25,3 +25,6 @@
 [submodule "platforms/xatkit-discord-platform"]
 	path = platforms/xatkit-discord-platform
 	url = https://github.com/xatkit-bot-platform/xatkit-discord-platform.git
+[submodule "platforms/xatkit-giphy-platform"]
+	path = platforms/xatkit-giphy-platform
+	url = https://github.com/xatkit-bot-platform/xatkit-giphy-platform.git
