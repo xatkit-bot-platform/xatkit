@@ -7,3 +7,6 @@
 [submodule "xatkit-eclipse"]
 	path = xatkit-eclipse
 	url = https://github.com/xatkit-bot-platform/xatkit-eclipse.git
+[submodule "xatkit-examples"]
+	path = xatkit-examples
+	url = https://github.com/xatkit-bot-platform/xatkit-examples.git
