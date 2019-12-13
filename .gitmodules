@@ -13,3 +13,6 @@
 [submodule "libraries/xatkit-core-library"]
 	path = libraries/xatkit-core-library
 	url = https://github.com/xatkit-bot-platform/xatkit-core-library.git
+[submodule "platforms/xatkit-alexa-platform"]
+	path = platforms/xatkit-alexa-platform
+	url = https://github.com/xatkit-bot-platform/xatkit-alexa-platform.git
