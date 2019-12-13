@@ -31,3 +31,6 @@
 [submodule "platforms/xatkit-github-platform"]
 	path = platforms/xatkit-github-platform
 	url = https://github.com/xatkit-bot-platform/xatkit-github-platform.git
+[submodule "platforms/xatkit-log-platform"]
+	path = platforms/xatkit-log-platform
+	url = https://github.com/xatkit-bot-platform/xatkit-log-platform.git
