@@ -1,0 +1,3 @@
+[submodule "xatkit-runtime"]
+	path = xatkit-runtime
+	url = https://github.com/xatkit-bot-platform/xatkit-runtime.git
