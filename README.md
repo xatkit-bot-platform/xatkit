@@ -1,18 +1,21 @@
-Xatkit Releases
+Xatkit - The easiest way to build complex digital assistants
 ======
 
-[![Wiki Badge](https://img.shields.io/badge/doc-wiki-blue)](https://github.com/xatkit-bot-platform/xatkit-releases/wiki)
+[![Download Badge](https://img.shields.io/badge/download-4.0.0-blue)](https://github.com/xatkit-bot-platform/xatkit-runtime/releases/latest)
 
-This repository contains the releases of the Xatkit framework. You can download the latest release [here](https://github.com/xatkit-bot-platform/xatkit-releases/releases/tag/4.0.0), or pick the one you need from the [release list](https://github.com/xatkit-bot-platform/xatkit-releases/releases).
+[![Wiki Badge](https://img.shields.io/badge/doc-wiki-blue)](https://github.com/xatkit-bot-platform/xatkit/wiki)
 
- # What's in the box?
 
-Each release contains two artifacts:
 
-- **xatkit_X.Y.Z.zip**: the Xatkit runtime bundled with a list of preset platforms. The Xatkit runtime runs your digital assistants, stores logs and monitoring information, and manages your assistant's life-cycle. The list of bundled platforms is available in the release description.
-- **xatkit-update-site_X.Y.Z.zip**: an Eclipse update site containing the Xatkit language editors. The editors allows to define intent libraries, platform specifications, and mix them in complex execution logic that can be executed by the Xatkit runtime. 
+*Model your bot once, deploy everywhere*
 
-# Quick Start
+Xatkit has been created to reduce boilerplate code, complex API understanding, and platform-specific deployment of your bots. Xatkit helps you focus on what really matters: **the conversation logic you want to embed in your chatbot**. 
+
+To do so, we have baked a **chatbot-specific modeling language** to specify user intentions, receive events, and bind them to computable actions. The produced chatbot *specification* is handled by the **Xatkit Runtime Engine**, which automatically manages its deployment and execution.
+
+![Overview](https://raw.githubusercontent.com/wiki/xatkit-bot-platform/xatkit/img/overview.png)
+
+## Quick Start
 
 1- Download the [latest release](https://github.com/xatkit-bot-platform/xatkit-releases/releases/tag/4.0.0) and extract *xatkit_4.0.0.zip*.
 
@@ -26,10 +29,6 @@ Execute `xatkit/install-windows.bat` with administrative rights
 
 Execute `xatkit/install-linux.sh`
 
-*Xatkit Tip: don't waste your time!*
-
-> This operation is only required the first time you install Xatkit
-
 3- Navigate to `xatkit/bin` and start the example digital assistant
 
 The example assistant is a basic web-based bot that greets users, it is defined in `xatkit/examples/GreetingsBot`.
@@ -37,13 +36,13 @@ The example assistant is a basic web-based bot that greets users, it is defined 
 **Windows**
 
 ```bash
-./start-xatkit-windows.sh ../examples/GreetingsBot/GreetingsBot.properties
+./start-xatkit-windows.sh ../examples/GreetingsBots/GreetingsBot/GreetingsBot.properties
 ```
 
 **Ubuntu**
 
 ```bash
-./start-xatkit-linux.sh ../examples/GreetingsBot/GreetingsBot.properties
+./start-xatkit-linux.sh ../examples/GreetingsBots/GreetingsBot/GreetingsBot.properties
 ```
 
 The console will log some initialization information, and after a few seconds you should see the following message:
@@ -54,19 +53,59 @@ You can test your chatbot here http://localhost:5000/admin (note that the bots b
 
 Open your browser and navigate to http://localhost:5000/admin to test your deployed web-based bot! Remember this bot is just a greetings bot to test your installation so beyond saying 'Hi', the bot will respond to everything else with the default answer!. Also, to simplify its configuration, this sample bot just uses regular expression to match your intent but you could easily configure it to [use a real NLP such as DialogFlow](https://github.com/xatkit-bot-platform/xatkit-releases/wiki/Integrating-DialogFlow)
 
-![Greetings Bot Chatbox](https://raw.githubusercontent.com/wiki/xatkit-bot-platform/xatkit-releases/img/greetings-bot-chatbox-example.png)
+![Greetings Bot Chatbox](https://raw.githubusercontent.com/wiki/xatkit-bot-platform/xatkit/img/greetings-bot-example.gif)
 
-# What's Next?
+## What are the supported platforms?
+
+The current release of Xatkit is shipped with 11 platforms such as Slack, Github, React ... You can find the full list of supported platform in our [wiki](https://github.com/xatkit-bot-platform/xatkit/wiki).
+
+There are also additional platforms built and supported by the community, you can find them on this dedicated [article](https://github.com/xatkit-bot-platform/xatkit/wiki). 
+
+*If you have created your own Xatkit platform we will be happy to add it to the list, just [drop us an email](mailto:admin@xatkit.com) with a link to your awesome work!*
+
+## What's next?
 
 Congratulations, you just started your first Xatkit digital assistant!
 
 You can now have a look at the [tutorial](https://github.com/xatkit-bot-platform/xatkit-releases/wiki/Getting-Started) to learn how assistants are defined with the Xatkit language, or if you are already familiar with it you can take a look at the [documentation](https://github.com/xatkit-bot-platform/xatkit-releases/wiki) for additional information on Xatkit capabilities.
 
-# Troubleshooting
+## Build
 
-If you experience any issue with Xatkit you can open an issue on [our tracker](https://github.com/xatkit-bot-platform/xatkit-releases/issues) and we will be happy to help you! Note that we may move your issue to a different repository based on the impacted components.
+You can build your local version of Xatkit using the following commands:
 
-# Contributing
+1 - Clone this repository and initialize its submodules
+
+```bash
+git clone https://github.com/xatkit-bot-platform/xatkit.git
+git submodule update --init --recursive
+```
+
+2 - Run the installation script
+
+```bash
+# Linux users
+./install-linux.sh
+# Windows users: execute the following bat file with administrative rights
+./install-windows.bat
+```
+
+3 - Run the build script
+
+```bash
+./build.sh --all --skip-tests --product
+```
+
+Your local version of Xatkit is built in the `build` directory, you can install it and run the Greetings bot by following [these instructions](https://github.com/xatkit-bot-platform/xatkit#quick-start).
+
+**Note**: the `git submodule` command will initialize Xatkit submodules with the latest releases of Xatkit. If you want to use the development version, or if you need advanced configuration in your build you can check [this detailed article from our wiki](https://github.com/xatkit-bot-platform/xatkit/wiki).
+
+## Troubleshooting
+
+If you experience any issue with Xatkit you can open an issue on [our tracker](https://github.com/xatkit-bot-platform/xatkit/issues) and we will be happy to help you! Note that we may move your issue to a different repository based on the impacted components.
+
+
+
+## Contributing
 
 You want to contribute to Xatkit? We would love to hear from you and provide all the assistance we can! To ease the process we have created the [*Xatkit Development Toolkit* (XDK)](https://github.com/xatkit-bot-platform/xatkit-dev), an all-in-one repository to build, test, and bundle Xatkit.
 
