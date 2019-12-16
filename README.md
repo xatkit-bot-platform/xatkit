@@ -67,7 +67,7 @@ There are also additional platforms built and supported by the community, you ca
 
 Congratulations, you just started your first Xatkit digital assistant!
 
-You can now have a look at the [tutorial](https://github.com/xatkit-bot-platform/xatkit-releases/wiki/Getting-Started) to learn how assistants are defined with the Xatkit language, or if you are already familiar with it you can take a look at the [documentation](https://github.com/xatkit-bot-platform/xatkit-releases/wiki) for additional information on Xatkit capabilities.
+You can now have a look at the [tutorial](https://github.com/xatkit-bot-platform/xatkit/wiki/Getting-Started) to learn how assistants are defined with the Xatkit language, or if you are already familiar with it you can take a look at the [documentation](https://github.com/xatkit-bot-platform/xatkit-releases/wiki) for additional information on Xatkit capabilities.
 
 ## Build
 
