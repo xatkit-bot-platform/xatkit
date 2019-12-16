@@ -97,7 +97,7 @@ git submodule update --init --recursive
 
 Your local version of Xatkit is built in the `build` directory, you can install it and run the Greetings bot by following [these instructions](https://github.com/xatkit-bot-platform/xatkit#quick-start).
 
-**Note**: the `git submodule` command will initialize Xatkit submodules with the latest releases of Xatkit. If you want to use the development version, or if you need advanced configuration in your build you can check [this detailed article from our wiki](https://github.com/xatkit-bot-platform/xatkit/wiki).
+**Note**: the `git submodule` command will initialize Xatkit submodules with the latest releases of Xatkit. If you want to use the latest development version, or if you need advanced configuration in your build you can check [this detailed article from our wiki](https://github.com/xatkit-bot-platform/xatkit/wiki/Build-Xatkit).
 
 ## Troubleshooting
 
@@ -107,8 +107,8 @@ If you experience any issue with Xatkit you can open an issue on [our tracker](h
 
 ## Contributing
 
-You want to contribute to Xatkit? We would love to hear from you and provide all the assistance we can! To ease the process we have created the [*Xatkit Development Toolkit* (XDK)](https://github.com/xatkit-bot-platform/xatkit-dev), an all-in-one repository to build, test, and bundle Xatkit.
+You want to contribute to Xatkit? We would love to hear from you and provide all the assistance we can! To ease the process we have written a [detailed article](https://github.com/xatkit-bot-platform/xatkit/wiki/Build-Xatkit) on how to build Xatkit from sources and install the development version.
 
-You can use the XDK to clone the Xatkit repositories and add your awesome contributions. Once you are ready, you can open a pull-request on the repository you updated and we will be happy to review your code and help you!
+You have contributed to one of our repository? To not hesitate to create a pull-request on the repository you updated and we will be happy to review your code and help you!
 
 You have created a brand new platform for Xatkit? You can [contact us](mailto:admin@xatkit.com) and we will take a look at it! If you want to increase the visibility of your contribution we can create a dedicated repository for it in the Xatkit organization on Github.
