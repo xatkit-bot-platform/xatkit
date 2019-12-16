@@ -23,8 +23,6 @@
 #						zipped update-site is created in /update-site
 # --skip-tests:			skip the build tests (equivalent to -DskipTests parameter for maven)
 # --skip-mvn:			skip maven build. This can be combined with --product to refresh the content of the build/ directory
-# --skip-pull:			skip git pull. This can be used to build your platform without downloading any new changes from the 
-#						repos so your environment can remain unchanged when you build the platform.
 #
 # Examples
 #
@@ -42,12 +40,6 @@ build_platform() {
 	platform=$1
 	platform_name=${platform%"-platform"}
 	cd $XATKIT_DEV/platforms/$platform
-	if [ $skip_pull = false ] 
-	then
-		echo "Pulling $platform"
-		#git pull
-	fi
-
 	echo "Building $platform"
 	if [ $skip_mvn = false ]
 	then
@@ -68,12 +60,6 @@ build_library() {
 	library=$1
 	library_name=${library%"-library"}
 	cd $XATKIT_DEV/libraries/$library
-	if [ $skip_pull = false ] 
-	then	
-		echo "Pulling $library"
-		#git pull
-	fi
-
 	echo "Building $library"
 	if [ $skip_mvn = false ]
 	then
@@ -110,7 +96,6 @@ build_runtime=false
 build_product=false
 build_eclipse=false
 skip_mvn=false
-skip_pull=false
 all_platforms=$(ls -d platforms/* | xargs -n 1 basename)
 all_libraries=$(ls -d libraries/* | xargs -n 1 basename)
 platforms_to_build=()
@@ -151,7 +136,6 @@ do
 		"--skip-tests") 	mvn_options="$mvn_options -DskipTests" ;;
 		"--skip-mvn")		skip_mvn=true ;;
 		"--product")		mvn_options="$mvn_options -Pbuild-product"; build_product=true ;;
-		"--skip-pull") 		skip_pull=true ;;
 		*) 					echo "Unknown argument $arg"; exit 1
 	esac
 done
@@ -195,11 +179,6 @@ cd $XATKIT_DEV
 
 # Install the top-level pom (always needs to be done)
 cd $XATKIT_DEV
-if [ $skip_pull = false ] 
-then
-	echo "Pulling Xatkit Parent"
-	#git pull
-fi
 echo "Building Xatkit Parent"
 if [ $skip_mvn = false ] 
 then
@@ -211,12 +190,6 @@ fi
 if [ $build_metamodels = true ]
 then
 	cd $XATKIT_DEV/xatkit-metamodels
-
-	if [ $skip_pull = false ] 
-	then
-		echo "Pulling Xatkit Metamodels"
-		#git pull
-	fi
 	echo "Building Xatkit Metamodels"
 	if [ $skip_mvn = false ] 
 	then
@@ -230,12 +203,6 @@ fi
 if [ $build_eclipse = true ]
 then
 	cd $XATKIT_DEV/xatkit-eclipse
-	
-	if [ $skip_pull = false ] 
-	then
-		echo "Pulling Xatkit Eclipse Plugins"
-		#git pull
-	fi
 	echo "Building Xatkit Eclipse Plugins"
 	if [ $skip_mvn = false ]
 	then
@@ -252,12 +219,6 @@ fi
 if [ $build_runtime = true ]
 then
 	cd $XATKIT_DEV/xatkit-runtime
-
-	if [ $skip_pull = false ] 
-	then
-		echo "Pulling Xatkit Runtime"
-		#git pull
-	fi
 	echo "Building Xatkit Runtime"
 	if [ $skip_mvn = false ]
 	then
@@ -329,12 +290,6 @@ then
 		echo "Copying $script"
 		cp $script $XATKIT_DEV/build/bin/
 	done
-	if [ $skip_pull = false ] 
-	then
-		echo "Pulling Xatkit Examples"
-		cd $XATKIT_DEV/xatkit-examples
-		#git pull
-	fi
 	echo "Copying Xatkit Examples"
 	cp -r $XATKIT_DEV/xatkit-examples $XATKIT_DEV/build/examples
 	rm -rf $XATKIT_DEV/build/examples/.git
