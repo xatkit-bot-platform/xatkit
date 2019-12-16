@@ -88,6 +88,36 @@ then
 	exit 1
 fi
 
+checkRequirements() {
+	echo "Checking requirements"
+	command -v java
+	if [ $? != 0 ] 
+	then
+		echo "Xatkit build script requires Java 8, please install JDK 8 (https://www.java.com/en/download/) and restart this script"
+		exit 1
+	fi
+	command -v unzip
+	if [ $? != 0 ]
+	then
+		echo "Xatkit build script requires unzip, please install unzip and restart this script"
+		exit 1
+	fi
+	command -v git
+	if [ $? != 0 ] 
+	then
+		echo "Xatkit build script requires git, please install git and restart this script"
+		exit 1
+	fi
+	command -v mvn
+	if [ $? != 0 ] 
+	then
+		echo "Xatkit build script requires Maven, please install Maven (https://maven.apache.org/) and restart this script"
+		exit 1
+	fi
+}
+
+checkRequirements
+
 cd $XATKIT_DEV
 
 mvn_options=""
