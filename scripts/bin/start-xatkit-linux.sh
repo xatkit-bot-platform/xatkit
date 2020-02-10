@@ -20,8 +20,8 @@ java_classpath="${java_classpath:1}"
 
 if [ -z $1 ]
 then
-	runthis "java -cp '$java_classpath' com.xatkit.Xatkit"
+	runthis "java -Dfile.encoding=UTF-8 -cp '$java_classpath' com.xatkit.Xatkit"
 else
-	runthis "java -cp '$java_classpath' com.xatkit.Xatkit '$1'"
+	runthis "java -Dfile.encoding=UTF-8 -cp '$java_classpath' com.xatkit.Xatkit '$1'"
 fi
 
