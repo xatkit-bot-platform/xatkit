@@ -200,6 +200,7 @@ then
 	rm -rf $XATKIT_DEV/build/examples
 	mkdir -p $XATKIT_DEV/build
 	mkdir -p $XATKIT_DEV/build/plugins/platforms
+	mkdir -p $XATKIT_DEV/build/plugins/libs
 	mkdir -p $XATKIT_DEV/build/bin
 else
 	echo "--product not set, nothing to clean"
