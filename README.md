@@ -1,7 +1,7 @@
 Xatkit - The easiest way to build complex digital assistants
 ======
 
-[![Download Badge](https://img.shields.io/badge/download-4.0.0-blue)](https://github.com/xatkit-bot-platform/xatkit-runtime/releases/latest) [![Wiki Badge](https://img.shields.io/badge/doc-wiki-blue)](https://github.com/xatkit-bot-platform/xatkit/wiki)
+[![Wiki Badge](https://img.shields.io/badge/doc-wiki-blue)](https://github.com/xatkit-bot-platform/xatkit/wiki)
 
 
 *Model your bot once, deploy everywhere*
@@ -14,7 +14,7 @@ To do so, we have baked a **chatbot-specific definition language** to specify us
 
 ## Quick Start
 
-1- Download the [latest release](https://github.com/xatkit-bot-platform/xatkit-releases/releases/tag/4.0.0) and extract *xatkit_4.0.0.zip*.
+1- [Build the latest version of Xatkit](https://github.com/xatkit-bot-platform/xatkit/wiki/Build-Xatkit)
 
 2- Setup the environment variable
 
@@ -48,13 +48,13 @@ The console will log some initialization information, and after a few seconds yo
 You can test your chatbot here http://localhost:5000/admin (note that the bots behavior can be slightly different on the test page than when it is deployed on a server)
 ```
 
-Open your browser and navigate to http://localhost:5000/admin to test your deployed web-based bot! Remember this bot is just a greetings bot to test your installation so beyond saying 'Hi', the bot will respond to everything else with the default answer!. Also, to simplify its configuration, this sample bot just uses regular expression to match your intent but you could easily configure it to [use a real NLP such as DialogFlow](https://github.com/xatkit-bot-platform/xatkit-releases/wiki/Integrating-DialogFlow)
+Open your browser and navigate to http://localhost:5000/admin to test your deployed web-based bot! Remember this bot is just a greetings bot to test your installation so beyond saying 'Hi', the bot will respond to everything else with the default answer!. Also, to simplify its configuration, this sample bot just uses regular expression to match your intent but you could easily configure it to [use a real NLP such as DialogFlow](https://github.com/xatkit-bot-platform/xatkit/wiki/Integrating-DialogFlow)
 
 ![Greetings Bot Chatbox](https://raw.githubusercontent.com/wiki/xatkit-bot-platform/xatkit/img/greetings-bot-example.gif)
 
 ## What are the supported platforms?
 
-The current release of Xatkit is shipped with 11 platforms such as Slack, Github, React ... You can find the full list of supported platform in our [wiki](https://github.com/xatkit-bot-platform/xatkit/wiki).
+Xatkit supports 11 platforms (and counting) such as Slack, Github, React ... You can find the full list of supported platform in our [wiki](https://github.com/xatkit-bot-platform/xatkit/wiki).
 
 There are also additional platforms built and supported by the community, you can find them on this dedicated [article](https://github.com/xatkit-bot-platform/xatkit/wiki). 
 
@@ -64,7 +64,7 @@ There are also additional platforms built and supported by the community, you ca
 
 Congratulations, you just started your first Xatkit digital assistant!
 
-You can now have a look at the [tutorial](https://github.com/xatkit-bot-platform/xatkit/wiki/Getting-Started) to learn how assistants are defined with the Xatkit language, or if you are already familiar with it you can take a look at the [documentation](https://github.com/xatkit-bot-platform/xatkit-releases/wiki) for additional information on Xatkit capabilities.
+You can now have a look at the [tutorial](https://github.com/xatkit-bot-platform/xatkit/wiki/Getting-Started) to learn how assistants are defined with the Xatkit language, or if you are already familiar with it you can take a look at the [documentation](https://github.com/xatkit-bot-platform/xatkit/wiki) for additional information on Xatkit capabilities.
 
 ## Build
 
@@ -94,7 +94,7 @@ git submodule update --init --recursive
 
 Your local version of Xatkit is built in the `build` directory, you can install it and run the Greetings bot by following [these instructions](https://github.com/xatkit-bot-platform/xatkit#quick-start).
 
-**Note**: the `git submodule` command will initialize Xatkit submodules with the latest releases of Xatkit. If you want to use the latest development version, or if you need advanced configuration in your build you can check [this detailed article from our wiki](https://github.com/xatkit-bot-platform/xatkit/wiki/Build-Xatkit).
+**Note**: the `git submodule` command will initialize Xatkit submodules with the latest stable version of Xatkit. If you want to use the latest development version, or if you need advanced configuration in your build you can check [this detailed article from our wiki](https://github.com/xatkit-bot-platform/xatkit/wiki/Build-Xatkit).
 
 ## Troubleshooting
 
