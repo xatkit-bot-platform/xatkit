@@ -4,7 +4,7 @@ Xatkit - The easiest way to build complex digital assistants
 [![Wiki Badge](https://img.shields.io/badge/doc-wiki-blue)](https://github.com/xatkit-bot-platform/xatkit/wiki)
 
 
-*Easiest way to get your own smart chatbot. Model your bot once, deploy everywhere*
+*Get get your own smart chatbot. Design your bot once, deploy it everywhere*
 
 Xatkit has been created to reduce boilerplate code, complex API understanding, and platform-specific deployment of your bots. Xatkit helps you focus on what really matters: **the conversation logic you want to embed in your chatbot**. 
 
