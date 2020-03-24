@@ -4,11 +4,13 @@ Xatkit - The easiest way to build complex digital assistants
 [![Wiki Badge](https://img.shields.io/badge/doc-wiki-blue)](https://github.com/xatkit-bot-platform/xatkit/wiki)
 
 
-*Model your bot once, deploy everywhere*
+*Easiest way to get your own smart chatbot. Model your bot once, deploy everywhere*
 
 Xatkit has been created to reduce boilerplate code, complex API understanding, and platform-specific deployment of your bots. Xatkit helps you focus on what really matters: **the conversation logic you want to embed in your chatbot**. 
 
-To do so, we have baked a **chatbot-specific definition language** to specify user intentions, receive events, and bind them to computable actions. The produced chatbot *specification* is handled by the **Xatkit Runtime Engine**, which automatically manages its deployment and execution.
+To do so, we have baked a **chatbot-specific definition language** to specify user intentions, receive events (so yours bot can also be proactive!), and bind them to computable actions. The produced chatbot *specification* is handled by the **Xatkit Runtime Engine**, which automatically manages its deployment and execution. 
+
+See some [examples](https://xatkit.com/chatbot-examples/) of what you can do with Xatkit! 
 
 ![Overview](https://raw.githubusercontent.com/wiki/xatkit-bot-platform/xatkit/img/overview.png)
 
