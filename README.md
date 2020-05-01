@@ -48,9 +48,9 @@ The console will log some initialization information, and after a few seconds yo
 You can test your chatbot here http://localhost:5000/admin (note that the bots behavior can be slightly different on the test page than when it is deployed on a server)
 ```
 
-Open your browser and navigate to http://localhost:5000/admin to test your deployed web-based bot! Remember this bot is just a greetings bot to test your installation so beyond saying 'Hi', the bot will respond to everything else with the default answer!. Also, to simplify its configuration, this sample bot just uses regular expression to match your intent but you could easily configure it to [use a real NLP such as DialogFlow](https://github.com/xatkit-bot-platform/xatkit/wiki/Integrating-DialogFlow)
+Open your browser and navigate to http://localhost:5000/admin to test your deployed web-based bot! Remember this bot is just a greetings bot to test your installation so beyond saying 'Hi', the bot will respond to everything else with the default answer!. Also, to simplify its configuration, this sample bot just uses regular expression to match your intent but you could easily configure it to [use a real NLP such as DialogFlow](https://github.com/xatkit-bot-platform/xatkit/wiki/Integrating-DialogFlow). You can see a more complete online demo by talking with Xat, the bot waiting to assist you in [our home page](https://xatkit.com/). 
 
-![Greetings Bot Chatbox](https://raw.githubusercontent.com/wiki/xatkit-bot-platform/xatkit/img/greetings-bot-example.gif)
+![Greetings Bot Example](https://raw.githubusercontent.com/wiki/xatkit-bot-platform/xatkit/img/greetings-bot-example.gif)
 
 ## What platforms are available in Xatkit?
 
@@ -75,6 +75,10 @@ And, of course, if you want/can fix bugs and/or implement new features for Xatki
 
 ## Contact
 
-Feel free to [reach out by mail](mailto:admin@xatkit.com) or [ping us in social media](https://twitter.com/xatkit).
+Feel free to [reach out by mail](mailto:admin@xatkit.com) or [ping us in social media](https://twitter.com/xatkit). 
+
+## Website
+
+[Xatkit.com](https://xatkit.com/)
 
 
