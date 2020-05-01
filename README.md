@@ -1,4 +1,4 @@
-Xatkit - The easiest way to build complex digital assistants
+Xatkit - The easiest way to build advanced (chat)bots and digital assistants
 ======
 
 [![Wiki Badge](https://img.shields.io/badge/doc-wiki-blue)](https://github.com/xatkit-bot-platform/xatkit/wiki)
