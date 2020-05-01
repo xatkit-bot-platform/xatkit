@@ -52,11 +52,10 @@ Open your browser and navigate to http://localhost:5000/admin to test your deplo
 
 ![Greetings Bot Chatbox](https://raw.githubusercontent.com/wiki/xatkit-bot-platform/xatkit/img/greetings-bot-example.gif)
 
-## What are the supported platforms?
+## What platforms are available in Xatkit?
 
 Xatkit supports over a dozen platforms (and counting) such as Slack, Github, React ... You can find the full list of supported platform in our [wiki](https://github.com/xatkit-bot-platform/xatkit/wiki).
 
-*If you have created your own Xatkit platform we will be happy to add it to the list, just [drop us an email](mailto:admin@xatkit.com) with a link to your awesome work!*
 
 ## What's next?
 
@@ -77,3 +76,5 @@ And, of course, if you want/can fix bugs and/or implement new features for Xatki
 ## Contact
 
 Feel free to [reach out by mail](mailto:admin@xatkit.com) or [ping us in social media](https://twitter.com/xatkit).
+
+
