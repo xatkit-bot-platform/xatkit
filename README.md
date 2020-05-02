@@ -57,7 +57,7 @@ Open your browser and navigate to http://localhost:5000/admin to test your deplo
 Xatkit supports over a dozen platforms (and counting) such as Slack, Github, React ... You can find the full list of supported platform in our [wiki](https://github.com/xatkit-bot-platform/xatkit/wiki).
 
 
-## What's next?
+## Create your first bot
 
 Congratulations, you just started your first Xatkit digital assistant!
 
