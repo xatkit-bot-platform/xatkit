@@ -81,4 +81,4 @@ Feel free to [reach out by mail](mailto:admin@xatkit.com) or [ping us in social 
 
 [Xatkit.com](https://xatkit.com/)
 
-
+**Thanks for reading until the end! If you like what you see, don't forget to star/watch this repository, thanks!**
