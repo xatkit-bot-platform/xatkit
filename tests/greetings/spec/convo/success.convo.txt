@@ -1,0 +1,13 @@
+Success conversation
+
+#me
+Hi
+
+#bot
+Hi, nice to meet you!
+
+#me
+How are you?
+
+#bot
+I am fine and you?

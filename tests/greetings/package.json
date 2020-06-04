@@ -1,0 +1,12 @@
+{
+  "name": "greetings-test-sample",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "mocha spec"
+  },
+  "devDependencies": {
+    "mocha": "latest",
+    "botium-bindings": "latest",
+    "botium-connector-xatkit": "latest"
+  }
+}
