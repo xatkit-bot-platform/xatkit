@@ -282,17 +282,22 @@ do
 done
 
 cd $XATKIT_DEV/platforms
-concrete_platforms=$platforms_to_build
+concrete_platforms=()
 
-for i in "${abstract_platforms[@]}"
+for platform in $platforms_to_build
 do
-	concrete_platforms=${concrete_platforms[@]//"$i"}
+  found=false
+  for abstract_platform in "${abstract_platforms[@]}"
+  do
+    [ $platform = $abstract_platform ] && found=true
+  done
+  [ $found = false ] && concrete_platforms+=($platform)
 done
 
-for concrete_platform in $concrete_platforms
+for concrete_platform in "${concrete_platforms[@]}"
 do
 	echo "Building concrete platform $concrete_platform"
-	build_platform $concrete_platform
+	build_platform "$concrete_platform"
 done
 
 cd $XATKIT_DEV/libraries
