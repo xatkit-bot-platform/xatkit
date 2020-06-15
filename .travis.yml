@@ -24,6 +24,7 @@ script:
   - npm test
 
 deploy:
+  skip_cleanup: true
   provider: script
   script: bash .util/docker_push.sh
   on:
