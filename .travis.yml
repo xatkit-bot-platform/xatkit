@@ -24,8 +24,8 @@ script:
   - npm test
 
 deploy:
-  - provider: script
-  - script: bash .util/docker_push.sh
+  provider: script
+  script: bash .util/docker_push.sh
 
 notifications:
   email: no
