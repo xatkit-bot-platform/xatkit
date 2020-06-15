@@ -26,6 +26,8 @@ script:
 deploy:
   provider: script
   script: bash .util/docker_push.sh
+  on:
+    all_branches: true # we need to modify this in the future to only deploy when a certain condition is met
 
 notifications:
   email: no
