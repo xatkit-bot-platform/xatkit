@@ -23,7 +23,7 @@ before_script:
 script:
   - npm test
 
-build:
+deploy:
   - provider: script
   - script: bash .util/docker_push.sh
 
