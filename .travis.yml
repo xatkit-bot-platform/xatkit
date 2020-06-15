@@ -23,6 +23,9 @@ before_script:
 script:
   - npm test
 
+before_deploy:
+  - cd $XATKIT_DEV
+
 deploy:
   skip_cleanup: true
   provider: script
