@@ -1,7 +1,8 @@
-Xatkit - The easiest way to build advanced (chat)bots and digital assistants
+Xatkit - The easiest way to build smart (chat)bots
 ======
 
 [![Wiki Badge](https://img.shields.io/badge/doc-wiki-blue)](https://github.com/xatkit-bot-platform/xatkit/wiki)
+[![Twitter](https://img.shields.io/twitter/follow/xatkit?label=Follow&style=social)](https://twitter.com/xatkit)
 
 
 *Get get your own smart chatbot. Design your bot once, deploy it everywhere*
