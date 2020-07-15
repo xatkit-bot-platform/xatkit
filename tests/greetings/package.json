@@ -7,6 +7,6 @@
   "devDependencies": {
     "mocha": "latest",
     "botium-bindings": "latest",
-    "botium-connector-xatkit": "latest"
+    "botium-connector-xatkit": "0.1.0"
   }
 }
