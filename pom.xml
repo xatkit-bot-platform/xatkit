@@ -51,11 +51,16 @@
     </properties>
 
 
-    <!-- <modules>
-        <module>core</module>
-        <module>metamodels</module>
-        <module>core_resources</module>
-    </modules> -->
+    <modules>
+        <module>xatkit-metamodels</module>
+        <module>xatkit-runtime</module>
+        <module>platforms/xatkit-chat-platform</module>
+        <module>platforms/xatkit-giphy-platform</module>
+        <module>platforms/xatkit-github-platform</module>
+        <module>platforms/xatkit-react-platform</module>
+        <module>platforms/xatkit-rest-platform</module>
+        <module>platforms/xatkit-slack-platform</module>
+    </modules>
 
     <developers>
         <developer>
