@@ -17,30 +17,10 @@ To do so, we have baked a **chatbot-specific definition language** to specify us
 
 1- [Build the latest version of Xatkit](https://github.com/xatkit-bot-platform/xatkit/wiki/Build-Xatkit)
 
-2- Setup the environment variable
-
-**Windows**
-
-Execute `xatkit/install-windows.bat` with administrative rights
-
-**Ubuntu**
-
-Execute `xatkit/install-linux.sh`
-
-3- Navigate to `xatkit/bin` and start the example digital assistant
-
-The example assistant is a basic web-based bot that greets users, it is defined in `xatkit/examples/GreetingsBot`.
-
-**Windows**
+2- Navigate to `xatkit-examples/GreetingsBots/GreetingsBot` and start the example digital assistant (a basic web-based bot that greets users)
 
 ```bash
-./start-xatkit-windows.sh ../examples/GreetingsBots/GreetingsBot/GreetingsBot.properties
-```
-
-**Ubuntu**
-
-```bash
-./start-xatkit-linux.sh ../examples/GreetingsBots/GreetingsBot/GreetingsBot.properties
+mvn exec:java -Dexec.mainClass="com.xatkit.example.GreetingsBot"
 ```
 
 The console will log some initialization information, and after a few seconds you should see the following message:
