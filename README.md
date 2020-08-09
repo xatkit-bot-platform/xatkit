@@ -5,7 +5,7 @@ Xatkit - The easiest way to build advanced bots and chatbots
 [![Twitter](https://img.shields.io/twitter/follow/xatkit?label=Follow&style=social)](https://twitter.com/xatkit)
 
 
-*Get your own smart chatbot. Design your bot once with our low-code tool, deploy it everywhere*
+*Get your own smart chatbot. Design your bot once, deploy it everywhere*
 
 Xatkit has been created to reduce boilerplate code, complex API understanding, and technical details to facilitate the definition and deployment of your bots. Xatkit helps you focus on what really matters: **the conversation logic you want to embed in your chatbot**. 
 
