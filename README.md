@@ -35,16 +35,18 @@ Open your browser and navigate to http://localhost:5000/admin to test your deplo
 
 ![Greetings Bot Example](https://raw.githubusercontent.com/wiki/xatkit-bot-platform/xatkit/img/greetings-bot-example-updated.gif)
 
-## What platforms are available in Xatkit?
-
-Xatkit supports over a dozen platforms (and counting) such as Slack, Github, React ... You can find the full list of supported platform in our [wiki](https://github.com/xatkit-bot-platform/xatkit/wiki).
-
 
 ## Create your first bot
 
 Congratulations, you just started your first Xatkit digital assistant!
 
-You can now have a look at the [tutorial](https://github.com/xatkit-bot-platform/xatkit/wiki/Getting-Started) to learn how assistants are defined with the Xatkit language, or if you are already familiar with it you can take a look at the [documentation](https://github.com/xatkit-bot-platform/xatkit/wiki) for additional information on Xatkit capabilities.
+You can now have a look at the [tutorial](https://github.com/xatkit-bot-platform/xatkit/wiki/Getting-Started) to learn how bots are defined with the Xatkit language, or if you are already familiar with it you can take a look at the [documentation](https://github.com/xatkit-bot-platform/xatkit/wiki) for additional information on Xatkit capabilities.
+
+You can also kickstart the process thanks to our pre-configured [Xakit Bot Template](https://github.com/xatkit-bot-platform/xatkit-bot-template).
+
+## What platforms are available in Xatkit?
+
+Your bot will be able to use any of the over a dozen platforms (and counting) available in Xatkit such as Slack, Github, React ... You can find the full list of supported platform in our [wiki](https://github.com/xatkit-bot-platform/xatkit/wiki).
 
 ## Troubleshooting
 
