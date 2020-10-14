@@ -1,46 +1,28 @@
-Xatkit - The easiest way to build advanced (chat)bots
+Xatkit - The easiest way to build advanced bots and chatbots
 ======
 
 [![Wiki Badge](https://img.shields.io/badge/doc-wiki-blue)](https://github.com/xatkit-bot-platform/xatkit/wiki)
 [![Twitter](https://img.shields.io/twitter/follow/xatkit?label=Follow&style=social)](https://twitter.com/xatkit)
 
 
-*Get get your own smart chatbot. Design your bot once with our low-code tool, deploy it everywhere*
+*Get your own smart chatbot. Design your bot once, deploy it everywhere*
 
 Xatkit has been created to reduce boilerplate code, complex API understanding, and technical details to facilitate the definition and deployment of your bots. Xatkit helps you focus on what really matters: **the conversation logic you want to embed in your chatbot**. 
 
-To do so, we have baked a **chatbot-specific definition language** to specify user intentions, receive events (your bots can also be proactive!), and bind them to computable actions following powerful [state machine semantics](https://xatkit.com/chatbot-dsl-state-machines-xatkit-language/). The produced chatbot *specification* is handled by the **Xatkit Runtime Engine**, which automatically manages its deployment and execution. See some [examples](https://xatkit.com/chatbot-examples/) of what you can do with Xatkit!. Reuse the existing platforms (or add your own) to make your bot *talk* with external services (Slack, GitHub, websites,...).
+To do so, we have baked a **chatbot-specific definition language** to specify user intentions, receive events (your bots can also be proactive!), and bind them to computable actions following powerful [state machine semantics](https://xatkit.com/chatbot-dsl-state-machines-xatkit-language/). Our chatbot language is implemented as a [Java Fluent Interface](https://xatkit.com/fluent-interface-building-chatbots-bots/) combining the low-code benefits of using a dedicated chatbot Internal DSL with the full power of Java when you need to write complex bot behaviours. 
 
-![Overview](https://raw.githubusercontent.com/wiki/xatkit-bot-platform/xatkit/img/overview.png)
+This chatbot *specification* is then handled by the **Xatkit Runtime Engine**, which automatically manages its deployment and execution. See some [examples](https://xatkit.com/chatbot-examples/) of what you can do with Xatkit!. Reuse the existing platforms (or add your own) to make your bot *talk* with external services (Slack, GitHub, websites,...).
+
 
 ## Quick Start
 
 1- [Build the latest version of Xatkit](https://github.com/xatkit-bot-platform/xatkit/wiki/Build-Xatkit)
 
-2- Setup the environment variable
-
-**Windows**
-
-Execute `xatkit/install-windows.bat` with administrative rights
-
-**Ubuntu**
-
-Execute `xatkit/install-linux.sh`
-
-3- Navigate to `xatkit/bin` and start the example digital assistant
-
-The example assistant is a basic web-based bot that greets users, it is defined in `xatkit/examples/GreetingsBot`.
-
-**Windows**
+2- Navigate to `xatkit-examples/GreetingsBots/GreetingsBot` and start the example digital assistant (a basic web-based bot that greets users)
 
 ```bash
-./start-xatkit-windows.sh ../examples/GreetingsBots/GreetingsBot/GreetingsBot.properties
-```
-
-**Ubuntu**
-
-```bash
-./start-xatkit-linux.sh ../examples/GreetingsBots/GreetingsBot/GreetingsBot.properties
+mvn clean compile
+mvn exec:java -Dexec.mainClass="com.xatkit.example.GreetingsBot"
 ```
 
 The console will log some initialization information, and after a few seconds you should see the following message:
@@ -51,18 +33,20 @@ You can test your chatbot here http://localhost:5000/admin (note that the bots b
 
 Open your browser and navigate to http://localhost:5000/admin to test your deployed web-based bot! Remember this bot is just a greetings bot to test your installation so beyond saying 'Hi', the bot will respond to everything else with the default answer!. Also, to simplify its configuration, this sample bot just uses regular expression to match your intent but you could easily configure it to [use a real NLP such as DialogFlow](https://github.com/xatkit-bot-platform/xatkit/wiki/Integrating-DialogFlow). You can see a more complete online demo by talking to **Xat**, the bot waiting to assist you in [our home page](https://xatkit.com/). 
 
-![Greetings Bot Example](https://raw.githubusercontent.com/wiki/xatkit-bot-platform/xatkit/img/greetings-bot-example.gif)
-
-## What platforms are available in Xatkit?
-
-Xatkit supports over a dozen platforms (and counting) such as Slack, Github, React ... You can find the full list of supported platform in our [wiki](https://github.com/xatkit-bot-platform/xatkit/wiki).
+![Greetings Bot Example](https://raw.githubusercontent.com/wiki/xatkit-bot-platform/xatkit/img/greetings-bot-example-updated.gif)
 
 
 ## Create your first bot
 
 Congratulations, you just started your first Xatkit digital assistant!
 
-You can now have a look at the [tutorial](https://github.com/xatkit-bot-platform/xatkit/wiki/Getting-Started) to learn how assistants are defined with the Xatkit language, or if you are already familiar with it you can take a look at the [documentation](https://github.com/xatkit-bot-platform/xatkit/wiki) for additional information on Xatkit capabilities.
+You can now have a look at the [tutorial](https://github.com/xatkit-bot-platform/xatkit/wiki/Getting-Started) to learn how bots are defined with the Xatkit language, or if you are already familiar with it you can take a look at the [documentation](https://github.com/xatkit-bot-platform/xatkit/wiki) for additional information on Xatkit capabilities.
+
+You can also kickstart the process thanks to our pre-configured [Xakit Bot Template](https://github.com/xatkit-bot-platform/xatkit-bot-template).
+
+## What platforms are available in Xatkit?
+
+Your bot will be able to use any of the over a dozen platforms (and counting) available in Xatkit such as Slack, Github, React ... You can find the full list of supported platform in our [wiki](https://github.com/xatkit-bot-platform/xatkit/wiki).
 
 ## Troubleshooting
 

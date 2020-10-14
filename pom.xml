@@ -24,16 +24,13 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <!-- Dependency versions -->
         <emf.version>2.15.0</emf.version>
-        <xtext.version>2.15.0</xtext.version>
-        <emf.codegen.ecore.xtext.version>1.4.0</emf.codegen.ecore.xtext.version>
         <atlanmod-commons.version>1.0.1</atlanmod-commons.version>
         <log4j.version>2.13.3</log4j.version>
         <junit.version>4.12</junit.version>
         <equinox.common.version>3.10.0</equinox.common.version>
-        <xcore.version>1.3.1</xcore.version>
-        <xcore-lib.version>1.1.100</xcore-lib.version>
         <assertj.version>3.10.0</assertj.version>
         <mockito-version>3.3.3</mockito-version>
+        <lombok.version>1.18.12</lombok.version>
         <!-- Plugin versions -->
         <maven-bundle-plugin.version>3.5.1</maven-bundle-plugin.version>
         <maven-javadoc-plugin.version>2.10.4</maven-javadoc-plugin.version>
@@ -47,15 +44,20 @@
         <maven-compiler-plugin.version>3.6.0</maven-compiler-plugin.version>
         <maven-help-plugin.version>3.2.0</maven-help-plugin.version>
         <!-- Used in the Javadoc profile -->
-        <commons-configuration.version>2.2</commons-configuration.version>
+        <commons-configuration.version>2.7</commons-configuration.version>
     </properties>
 
 
-    <!-- <modules>
-        <module>core</module>
-        <module>metamodels</module>
-        <module>core_resources</module>
-    </modules> -->
+    <modules>
+        <module>xatkit-metamodels</module>
+        <module>xatkit-runtime</module>
+        <module>platforms/xatkit-chat-platform</module>
+        <module>platforms/xatkit-giphy-platform</module>
+        <module>platforms/xatkit-github-platform</module>
+        <module>platforms/xatkit-react-platform</module>
+        <module>platforms/xatkit-rest-platform</module>
+        <module>platforms/xatkit-slack-platform</module>
+    </modules>
 
     <developers>
         <developer>
@@ -103,20 +105,6 @@
                 <version>${emf.version}</version>
             </dependency>
 
-            <!-- xcore -->
-
-            <dependency>
-                <groupId>org.eclipse.emf</groupId>
-                <artifactId>org.eclipse.emf.ecore.xcore</artifactId>
-                <version>${xcore.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>org.eclipse.emf</groupId>
-                <artifactId>org.eclipse.emf.ecore.xcore.lib</artifactId>
-                <version>${xcore-lib.version}</version>
-            </dependency>
-
             <!-- Utils -->
 
             <dependency>
@@ -142,6 +130,13 @@
               <artifactId>log4j-1.2-api</artifactId>
               <version>${log4j.version}</version>
         	</dependency>
+
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
+                <scope>provided</scope>
+            </dependency>
 
             <!-- Tests -->
 
