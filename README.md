@@ -64,7 +64,9 @@ Feel free to [reach out by mail](mailto:admin@xatkit.com) or [ping us in social 
 
 You want to contribute to Xatkit? We would love to hear from you. Remember that there are [many ways to support open source projects](https://livablesoftware.com/5-ways-to-thank-open-source-maintainers/) beyond committing code!. Talking about Xatkit, writing documentation, contributing examples,... all are great ways to help us.
 
-And, of course, if you want/can fix bugs and/or implement new features for Xatkit, do not not hesitate to create a pull-request on the repository you updated and we will be happy to review your code and help you!
+When contributing code, please first discuss the change you wish to make, starting by opening an issue, with us before making the change so that we can advise you on the best way to proceed with your bug fix or new feature idea. Then, once done, create the pull request on the specific repository you changed and we'll start a code review process with you. 
+
+Take a look at all the people that it's already part of our Xatkit community!
 
 <a href="https://github.com/xatkit-bot-platform/xatkit-runtime/graphs/contributors">
   <img src="https://contributors-img.web.app/image?repo=xatkit-bot-platform/xatkit-runtime" />
