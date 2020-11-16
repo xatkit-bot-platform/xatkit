@@ -4,7 +4,7 @@ Xatkit - The easiest way to build powerful bots and chatbots
 [![Wiki Badge](https://img.shields.io/badge/doc-wiki-blue)](https://github.com/xatkit-bot-platform/xatkit/wiki)
 [![Twitter](https://img.shields.io/twitter/follow/xatkit?label=Follow&style=social)](https://twitter.com/xatkit)
 ![GitHub forks](https://img.shields.io/github/forks/xatkit-bot-platform/xatkit?style=social)
-![GitHub Org's stars](https://img.shields.io/github/stars/xatkit-bot-platform?style=social)
+![GitHub Repo stars](https://img.shields.io/github/stars/xatkit-bot-platform/xatkit?style=social)
 
 *Get your own smart chatbot. Design your bot once, deploy it everywhere*
 
