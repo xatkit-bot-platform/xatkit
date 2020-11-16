@@ -1,4 +1,4 @@
-Xatkit - The easiest way to build advanced bots and chatbots
+Xatkit - The easiest way to build powerful bots and chatbots
 ======
 
 [![Wiki Badge](https://img.shields.io/badge/doc-wiki-blue)](https://github.com/xatkit-bot-platform/xatkit/wiki)
@@ -52,12 +52,6 @@ Your bot will be able to use any of the over a dozen platforms (and counting) av
 
 If you experience any issue with Xatkit you can open an issue on [our tracker](https://github.com/xatkit-bot-platform/xatkit/issues) and we will be happy to help you! Note that we may move your issue to a different repository based on the impacted components.
 
-## Contributing
-
-You want to contribute to Xatkit? We would love to hear from you. Remember that there are [many ways to support open source projects](https://livablesoftware.com/5-ways-to-thank-open-source-maintainers/) beyond committing code!. Talking about Xatkit, writing documentation, contributing examples,... all are great ways to help us.
-
-And, of course, if you want/can fix bugs and/or implement new features for Xatkit, do not not hesitate to create a pull-request on the repository you updated and we will be happy to review your code and help you!
-
 ## Contact
 
 Feel free to [reach out by mail](mailto:admin@xatkit.com) or [ping us in social media](https://twitter.com/xatkit). 
@@ -65,5 +59,18 @@ Feel free to [reach out by mail](mailto:admin@xatkit.com) or [ping us in social 
 ## Website
 
 [Xatkit.com](https://xatkit.com/)
+
+## Contributing
+
+You want to contribute to Xatkit? We would love to hear from you. Remember that there are [many ways to support open source projects](https://livablesoftware.com/5-ways-to-thank-open-source-maintainers/) beyond committing code!. Talking about Xatkit, writing documentation, contributing examples,... all are great ways to help us.
+
+And, of course, if you want/can fix bugs and/or implement new features for Xatkit, do not not hesitate to create a pull-request on the repository you updated and we will be happy to review your code and help you!
+
+<a href="https://github.com/xatkit-bot-platform/xatkit-runtime/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=xatkit-bot-platform/xatkit-runtime" />
+</a>
+
+Made with [contributors-img](https://contributors-img.web.app).
+
 
 **Thanks for reading until the end! If you like what you see, don't forget to star/watch this repository, thanks!**
