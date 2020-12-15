@@ -69,8 +69,8 @@ When contributing code, please first discuss the change you wish to make with us
 
 Take a look at all the people that it's already part of our Xatkit community!
 
-<a href="https://github.com/xatkit-bot-platform/xatkit-runtime/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=xatkit-bot-platform/xatkit-runtime" />
+<a href="https://github.com/xatkit-bot-platform/xatkit-contributors/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=xatkit-bot-platform/xatkit-contributors" />
 </a>
 
 Made with [contributors-img](https://contributors-img.web.app).
