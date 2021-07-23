@@ -57,6 +57,8 @@ If you experience any issue with Xatkit you can open an issue on [our tracker](h
 
 Feel free to [reach out by mail](mailto:admin@xatkit.com) or [ping us in social media](https://twitter.com/xatkit). 
 
+You can also chat with us on our public [Slack workspace](https://join.slack.com/t/xatkit-e-commerce/shared_invite/zt-sr77fab5-x2FqGSX4aynOVVCxWrdIHw).
+
 ## Website
 
 [Xatkit.com](https://xatkit.com/)
