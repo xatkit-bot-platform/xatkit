@@ -10,5 +10,6 @@ authors:
   - family-names: "Derras"
     given-names: "Mustapha"
 title: "Xatkit: A Multimodal Low-Code Chatbot Development Framework"
-url: "http://dx.doi.org/10.1109/ACCESS.2020.2966919"
+version: 1.0.0
 doi: 10.1109/ACCESS.2020.2966919
+url: "http://dx.doi.org/10.1109/ACCESS.2020.2966919"
