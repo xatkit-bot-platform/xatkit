@@ -12,7 +12,7 @@ Xatkit has been created to reduce boilerplate code, complex API understanding, a
 
 To do so, we have baked a **chatbot-specific definition language** to specify user intentions, receive events (your bots can also be proactive!), and bind them to computable actions following powerful [state machine semantics](https://xatkit.com/chatbot-dsl-state-machines-xatkit-language/). Our chatbot language is implemented as a [Java Fluent Interface](https://xatkit.com/fluent-interface-building-chatbots-bots/) combining the low-code benefits of using a dedicated chatbot Internal DSL with the full power of Java when you need to write complex bot behaviours. 
 
-This chatbot *specification* is then handled by the **Xatkit Runtime Engine**, which automatically manages its deployment and execution. See some [examples](https://xatkit.com/chatbot-examples/) of what you can do with Xatkit!. Reuse the existing platforms (or add your own) to make your bot *talk* with external services (Slack, GitHub, websites,...).
+This chatbot *specification* is then handled by the **Xatkit Runtime Engine**, which automatically manages its deployment and execution. Reuse the existing platforms (or add your own) to make your bot *talk* with external services (Slack, GitHub, websites,...).
 
 
 ## Quick Start
