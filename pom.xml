@@ -59,6 +59,8 @@
         <module>processors/xatkit-processors</module>
         <module>intent-providers/xatkit-dialogflow</module>
         <module>intent-providers/xatkit-nlpjs</module>
+        <module>monitoring/xatkit-logs-mapdb</module>
+        <module>monitoring/xatkit-logs-postgres</module>
     </modules>
 
     <developers>

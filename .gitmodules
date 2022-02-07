@@ -31,3 +31,9 @@
 [submodule "intent-providers/xatkit-nlpjs"]
 	path = intent-providers/xatkit-nlpjs
 	url = git@github.com:xatkit-bot-platform/xatkit-nlpjs.git
+[submodule "monitoring/xatkit-logs-mapdb"]
+	path = monitoring/xatkit-logs-mapdb
+	url = git@github.com:xatkit-bot-platform/xatkit-logs-mapdb.git
+[submodule "monitoring/xatkit-logs-postgres"]
+	path = monitoring/xatkit-logs-postgres
+	url = git@github.com:xatkit-bot-platform/xatkit-logs-postgres.git
