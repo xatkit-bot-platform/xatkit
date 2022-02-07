@@ -25,3 +25,9 @@
 [submodule "processors/xatkit-processors"]
 	path = processors/xatkit-processors
 	url = git@github.com:xatkit-bot-platform/xatkit-processors.git
+[submodule "intent-providers/xatkit-dialogflow"]
+	path = intent-providers/xatkit-dialogflow
+	url = git@github.com:xatkit-bot-platform/xatkit-dialogflow.git
+[submodule "intent-providers/xatkit-nlpjs"]
+	path = intent-providers/xatkit-nlpjs
+	url = git@github.com:xatkit-bot-platform/xatkit-nlpjs.git

@@ -57,6 +57,8 @@
         <module>platforms/xatkit-react-platform</module>
         <module>platforms/xatkit-slack-platform</module>
         <module>processors/xatkit-processors</module>
+        <module>intent-providers/xatkit-dialogflow</module>
+        <module>intent-providers/xatkit-nlpjs</module>
     </modules>
 
     <developers>
