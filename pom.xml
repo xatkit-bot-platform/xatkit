@@ -55,8 +55,8 @@
         <module>platforms/xatkit-giphy-platform</module>
         <module>platforms/xatkit-github-platform</module>
         <module>platforms/xatkit-react-platform</module>
-        <module>platforms/xatkit-rest-platform</module>
         <module>platforms/xatkit-slack-platform</module>
+        <module>processors/xatkit-processors</module>
     </modules>
 
     <developers>

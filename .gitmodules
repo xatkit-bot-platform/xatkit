@@ -22,3 +22,6 @@
 [submodule "platforms/xatkit-slack-platform"]
 	path = platforms/xatkit-slack-platform
 	url = https://github.com/xatkit-bot-platform/xatkit-slack-platform.git
+[submodule "processors/xatkit-processors"]
+	path = processors/xatkit-processors
+	url = git@github.com:xatkit-bot-platform/xatkit-processors.git
