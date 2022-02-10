@@ -24,16 +24,16 @@
 	url = https://github.com/xatkit-bot-platform/xatkit-slack-platform.git
 [submodule "processors/xatkit-processors"]
 	path = processors/xatkit-processors
-	url = git@github.com:xatkit-bot-platform/xatkit-processors.git
+	url = https://github.com/xatkit-bot-platform/xatkit-processors.git
 [submodule "intent-providers/xatkit-dialogflow"]
 	path = intent-providers/xatkit-dialogflow
-	url = git@github.com:xatkit-bot-platform/xatkit-dialogflow.git
+	url = https://github.com/xatkit-bot-platform/xatkit-dialogflow.git
 [submodule "intent-providers/xatkit-nlpjs"]
 	path = intent-providers/xatkit-nlpjs
-	url = git@github.com:xatkit-bot-platform/xatkit-nlpjs.git
+	url = https://github.com/xatkit-bot-platform/xatkit-nlpjs.git
 [submodule "monitoring/xatkit-logs-mapdb"]
 	path = monitoring/xatkit-logs-mapdb
-	url = git@github.com:xatkit-bot-platform/xatkit-logs-mapdb.git
+	url = https://github.com/xatkit-bot-platform/xatkit-logs-mapdb.git
 [submodule "monitoring/xatkit-logs-postgres"]
 	path = monitoring/xatkit-logs-postgres
-	url = git@github.com:xatkit-bot-platform/xatkit-logs-postgres.git
+	url = https://github.com/xatkit-bot-platform/xatkit-logs-postgres.git
