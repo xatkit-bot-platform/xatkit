@@ -6,13 +6,15 @@ Xatkit - The easiest way to build powerful bots and chatbots
 [![GitHub forks](https://img.shields.io/github/forks/xatkit-bot-platform/xatkit?style=social)](https://github.com/xatkit-bot-platform/xatkit/network/members)
 [![GitHub Repo stars](https://img.shields.io/github/stars/xatkit-bot-platform/xatkit?style=social)](https://github.com/xatkit-bot-platform/xatkit/stargazers)
 
-*Get your own smart chatbot. Design your bot once, deploy it everywhere*
+*Get your own smart chatbot. Design your bot once, deploy it everywhere.*
 
 Xatkit has been created to reduce boilerplate code, complex API understanding, and technical details to facilitate the definition and deployment of your bots. Xatkit helps you focus on what really matters: **the conversation logic you want to embed in your chatbot**. 
 
 To do so, we have baked a **chatbot-specific definition language** to specify user intentions, receive events (your bots can also be proactive!), and bind them to computable actions following powerful [state machine semantics](https://xatkit.com/chatbot-dsl-state-machines-xatkit-language/). Our chatbot language is implemented as a [Java Fluent Interface](https://xatkit.com/fluent-interface-building-chatbots-bots/) combining the low-code benefits of using a dedicated chatbot Internal DSL with the full power of Java when you need to write complex bot behaviours. 
 
 This chatbot *specification* is then handled by the **Xatkit Runtime Engine**, which automatically manages its deployment and execution. Reuse the existing platforms (or add your own) to make your bot *talk* with external services (Slack, GitHub, websites,...).
+
+Xatkit's philosophy is *not* to reinvent the wheel. Look at Xatkit as a [chatbot orchestration platform](https://xatkit.com/chatbot-orchestration-platform-open-source/) that will help you integrate the best NLP components in your ideal chatbot. 
 
 
 ## Quick Start
