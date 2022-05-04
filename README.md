@@ -1,10 +1,7 @@
 Xatkit - The easiest way to build powerful bots and chatbots
 ======
 
-[![Wiki Badge](https://img.shields.io/badge/doc-wiki-blue)](https://github.com/xatkit-bot-platform/xatkit/wiki)
-[![Twitter](https://img.shields.io/twitter/follow/xatkit?label=Follow&style=social)](https://twitter.com/xatkit)
-[![GitHub forks](https://img.shields.io/github/forks/xatkit-bot-platform/xatkit?style=social)](https://github.com/xatkit-bot-platform/xatkit/network/members)
-[![GitHub Repo stars](https://img.shields.io/github/stars/xatkit-bot-platform/xatkit?style=social)](https://github.com/xatkit-bot-platform/xatkit/stargazers)
+[![Wiki Badge](https://img.shields.io/badge/doc-wiki-blue)](https://github.com/xatkit-bot-platform/xatkit/wiki) [![Twitter](https://img.shields.io/twitter/follow/xatkit?label=Follow&style=social)](https://twitter.com/xatkit) [![GitHub forks](https://img.shields.io/github/forks/xatkit-bot-platform/xatkit?style=social)](https://github.com/xatkit-bot-platform/xatkit/network/members) [![GitHub Repo stars](https://img.shields.io/github/stars/xatkit-bot-platform/xatkit?style=social)](https://github.com/xatkit-bot-platform/xatkit/stargazers)
 
 *Get your own smart chatbot. Design your bot once, deploy it everywhere.*
 
@@ -49,7 +46,7 @@ You can also kickstart the process thanks to our pre-configured [Xakit Bot Templ
 
 ## What platforms are available in Xatkit?
 
-Your bot will be able to use any of the over a dozen platforms (and counting) available in Xatkit such as Slack, Github, React ... You can find the full list of supported platform in our [wiki](https://github.com/xatkit-bot-platform/xatkit/wiki).
+Your bot will be able to use any of the over a dozen platforms (and counting) available in Xatkit such as Slack, Telegram, WhatsApp, Github, web ... You can find the full list of supported platform in our [wiki](https://github.com/xatkit-bot-platform/xatkit/wiki).
 
 ## Troubleshooting
 
