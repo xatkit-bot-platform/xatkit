@@ -9,7 +9,7 @@ Xatkit has been created to reduce boilerplate code, complex API understanding, a
 
 To do so, we have baked a **chatbot-specific definition language** to specify user intentions, receive events (your bots can also be proactive!), and bind them to computable actions following powerful [state machine semantics](https://xatkit.com/chatbot-dsl-state-machines-xatkit-language/). Our chatbot language is implemented as a [Java Fluent Interface](https://xatkit.com/fluent-interface-building-chatbots-bots/) combining the low-code benefits of using a dedicated chatbot Internal DSL with the full power of Java when you need to write complex bot behaviours. 
 
-This chatbot *specification* is then handled by the **Xatkit Runtime Engine**, which automatically manages its deployment and execution. Reuse the existing platforms (or add your own) to make your bot *talk* with external services (Slack, GitHub, websites,...).
+This chatbot *specification* is then handled by the **Xatkit Runtime Engine**, which automatically manages its deployment and execution. Reuse the existing platforms (or add your own) to make your bot *talk* with external services (Slack, GitHub, Telegram, websites,...).
 
 Xatkit's philosophy is *not* to reinvent the wheel. Look at Xatkit as a [chatbot orchestration platform](https://xatkit.com/chatbot-orchestration-platform-open-source/) that will help you integrate the best NLP components in your ideal chatbot. 
 
@@ -31,9 +31,9 @@ The console will log some initialization information, and after a few seconds yo
 You can test your chatbot here http://localhost:5000/admin (note that the bots behavior can be slightly different on the test page than when it is deployed on a server)
 ```
 
-Open your browser and navigate to http://localhost:5000/admin to test your deployed web-based bot! Remember this bot is just a greetings bot to test your installation so beyond saying 'Hi', the bot will respond to everything else with the default answer!. Also, to simplify its configuration, this sample bot just uses regular expression to match your intent but you could easily configure it to [use a real NLP such as DialogFlow](https://github.com/xatkit-bot-platform/xatkit/wiki/Integrating-DialogFlow). You can see a more complete online demo by talking to **Xat**, the bot waiting to assist you in [our home page](https://xatkit.com/). 
+Open your browser and navigate to http://localhost:5000/admin to test your deployed web-based bot! Remember this bot is just a greetings bot to test your installation so beyond saying 'Hi', the bot will respond to everything else with the default answer!. Also, to simplify its configuration, this sample bot just uses regular expression to match your intent but you could easily configure it to [use a real NLP such as DialogFlow](https://github.com/xatkit-bot-platform/xatkit/wiki/Integrating-DialogFlow). 
 
-![Greetings Bot Example](https://raw.githubusercontent.com/wiki/xatkit-bot-platform/xatkit/img/greetings-bot-example-updated.gif)
+You can see a more complete online demo by talking to **our ecommerce chatbot demo**, freely accessible from [our home page](https://xatkit.com/). 
 
 
 ## Create your first bot
