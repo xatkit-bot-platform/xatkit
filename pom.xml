@@ -84,6 +84,15 @@
             </roles>
             <timezone>+2</timezone>
         </developer>
+        <developer>
+            <name>José Antonio Zamudio</name>
+            <id>jose.zamudio</id>
+            <email>joszamama@gmail.com</email>
+            <roles>
+                <role>developer</role>
+            </roles>
+            <timezone>+2</timezone>
+        </developer>
     </developers>
 
     <dependencyManagement>
@@ -164,6 +173,30 @@
                 <artifactId>log4j-core</artifactId>
                 <type>test-jar</type>
                 <version>${log4j.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.jayway.jsonpath</groupId>
+                <artifactId>json-path</artifactId>
+                <version>2.7.0</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-api</artifactId>
+                <version>1.7.25</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-simple</artifactId>
+                <version>1.7.25</version>
+            </dependency>
+
+            <dependency>
+            <groupId>com.googlecode.json-simple</groupId>
+            <artifactId>json-simple</artifactId>
+            <version>1.1.1</version>
             </dependency>
 
         </dependencies>
