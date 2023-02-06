@@ -37,3 +37,6 @@
 [submodule "monitoring/xatkit-logs-postgres"]
 	path = monitoring/xatkit-logs-postgres
 	url = https://github.com/xatkit-bot-platform/xatkit-logs-postgres.git
+[submodule "xatkit-spl-parser"]
+	path = xatkit-spl-parser
+	url = https://github.com/joszamama/xatkit-spl-parser.git
