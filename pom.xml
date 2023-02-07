@@ -84,15 +84,6 @@
             </roles>
             <timezone>+2</timezone>
         </developer>
-        <developer>
-            <name>José Antonio Zamudio</name>
-            <id>jose.zamudio</id>
-            <email>joszamama@gmail.com</email>
-            <roles>
-                <role>developer</role>
-            </roles>
-            <timezone>+2</timezone>
-        </developer>
     </developers>
 
     <dependencyManagement>
