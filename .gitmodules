@@ -37,3 +37,6 @@
 [submodule "xatkit-spl-parser"]
 	path = xatkit-spl-parser
 	url = https://github.com/joszamama/xatkit-spl-parser.git
+[submodule "xatkit-examples"]
+	path = xatkit-examples
+	url = https://github.com/joszamama/xatkit-examples
