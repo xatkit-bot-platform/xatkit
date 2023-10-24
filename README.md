@@ -54,27 +54,15 @@ If you experience any issue with Xatkit you can open an issue on [our tracker](h
 
 ## Contact
 
-Feel free to [reach out by mail](mailto:admin@xatkit.com) or [ping us in social media](https://twitter.com/xatkit). 
+Feel free to [reach out by mail](mailto:jcabotsagrera@gmail.com) or [ping us in social media](https://twitter.com/xatkit). 
 
-You can also chat with us on our public [Slack workspace](https://join.slack.com/t/xatkit-e-commerce/shared_invite/zt-sr77fab5-x2FqGSX4aynOVVCxWrdIHw).
+However, note that the project is not actively maintained as we are now investing our efforts on the [BESSER Bot Framework](https://github.com/BESSER-PEARL/BESSER-Bot-Framework)
 
 ## Website
 
 [Xatkit.com](https://xatkit.com/)
 
-## Contributing
 
-Do you want to contribute to Xatkit? We would love to hear from you. Remember that there are [many ways to support open source projects](https://livablesoftware.com/5-ways-to-thank-open-source-maintainers/) beyond committing code!. Talking about Xatkit, writing documentation, contributing examples,... all are great ways to help us.
-
-When contributing code, please first discuss the change you wish to make with us. Start by opening a descriptive issue so that we can advise on the best way to proceed with your bug fix or new feature idea. Then, once done, create the pull request on the specific repository you changed and we'll start a code review process with you. 
-
-Take a look at all the people that it's already part of our Xatkit community!
-
-<a href="https://github.com/xatkit-bot-platform/xatkit-contributors/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=xatkit-bot-platform/xatkit-contributors" />
-</a>
-
-Made with [contributors-img](https://contributors-img.web.app).
 
 
 **Thanks for reading until the end! If you like what you see, don't forget to star/watch this repository, thanks!**
