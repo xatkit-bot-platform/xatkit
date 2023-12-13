@@ -13,6 +13,7 @@ This chatbot *specification* is then handled by the **Xatkit Runtime Engine**, w
 
 Xatkit's philosophy is *not* to reinvent the wheel. Look at Xatkit as a [chatbot orchestration platform](https://xatkit.com/chatbot-orchestration-platform-open-source/) that will help you integrate the best NLP components in your ideal chatbot. 
 
+Xatkit is a java-based framework. If you're looking for a Python-based one that shares the same philosophy and similar arquitecture, check the [BESSER Bot Framework](https://github.com/BESSER-PEARL/BESSER-Bot-Framework)
 
 ## Quick Start
 
