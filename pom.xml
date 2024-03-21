@@ -44,7 +44,7 @@
         <maven-compiler-plugin.version>3.6.0</maven-compiler-plugin.version>
         <maven-help-plugin.version>3.2.0</maven-help-plugin.version>
         <!-- Used in the Javadoc profile -->
-        <commons-configuration.version>2.7</commons-configuration.version>
+        <commons-configuration.version>2.10.1</commons-configuration.version>
     </properties>
 
 
